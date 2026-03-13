@@ -2,17 +2,17 @@
 
 title: Nguyen Ngoc Quyen
 author:
-   name: Nguyễn Ngọc Quyên
-   email: ngocquyen030706@gmail.com
+  name: Nguyễn Ngọc Quyên
+  email: ngocquyen030706@gmail.com
 description: >
 #   Write an awesome description for your new site here. You can edit this line
 #   in _config.yml. It will appear in your document head meta (for Google search
 #   results) and in your feed.xml site description.
 
- remote_theme: jekyll/minima@d4d779a
+remote_theme: jekyll/minima@d4d779a
 
 # Minima requires the following plugins:
- plugins:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
@@ -24,7 +24,7 @@ description: >
 #  *All described config keys below should be nested under the top-level
 #   `minima` key.*
 #
- minima:
+minima:
 #   Minima skin selection. Available skins are:
 #     * classic            Default, light color scheme.
 #     * dark               Dark variant of the classic skin.
@@ -32,14 +32,13 @@ description: >
 #     * solarized-light    Light variant of solarized color scheme.
 #     * solarized-dark     Dark variant of solarized color scheme.
 #     * solarized          Adaptive skin for solarized color scheme skins.
-   skin: auto
+  skin: auto
+  show_excerpts: true
+  nav_pages:
+    - about.md
 
-   nav_pages:
-     - about.md
-
-
-   social_links:
-     - title: My GitHub
+  social_links:
+    - title: My GitHub
        icon: github
        url: "https://github.com/ngcquyen376"
      - title: Jekyll at X (formerly Twitter)
